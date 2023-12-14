@@ -1,0 +1,249 @@
+   .inicio {
+        background-image:url(pintura.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;   
+        background-attachment: fixed;
+    }
+
+    .bienvenida {
+        color:#7a4425;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 2em;   
+        text-shadow: 2px 2px 1px #000000;
+        margin: 20px;
+    }
+
+    .presentacion{
+        margin:20px;
+    }
+
+    .botones {
+        position:relative;
+        top: 20px;
+        width:100%;
+        text-align: center;
+    }
+
+    .boton {
+        width: 60%;
+        opacity:0.5;
+        border-radius:50%;
+        transition: all 1s;
+    }
+
+    .boton:hover {
+        width: 80%;
+        opacity:1;
+        border-radius:20px;
+        box-shadow:10px 10px 15px black ;
+    }
+
+    .fondo {
+        background-image:url(biblioteca.jpg);
+        background-repeat: no-repeat;
+        background-size: 100% 100%;   
+        background-attachment: fixed;
+        min-height: 700px;
+        padding-bottom: 40px;
+    }
+
+    
+    .menu {
+        overflow: hidden;
+        width:100%;
+        background-color: #333;
+    }
+
+    .menu a {
+        float: left;
+        display: block;
+        color: #f2f2f2;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+    }
+    
+    .menu a:hover {
+        background-color: #969292;
+        color: black;
+    }
+
+    .menu a:focus {
+        background-color: #ffffff;
+        color: rgb(0, 0, 0);
+    }
+
+    .titulo{
+        text-align: center;
+        color:#ffffff;
+        text-decoration:underline;
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+
+    .autoras{
+        position:relative;
+    }
+
+    .Joana {
+        background:#7768a3;
+        width: 20%;
+        height:500px;
+        overflow:auto;
+        position:absolute;
+        left:10%;
+        padding:10px;
+    }
+
+    .Alice {
+        background:#ae655b;
+        width: 20%;
+        height:500px;
+        overflow:auto;
+        position:absolute;
+        left:40%;
+        padding:10px;
+    }
+
+    .Mercedes {
+        background:#ccaf47;
+        width: 20%;
+        height:500px;
+        overflow:auto;
+        position:absolute;
+        left:70%;
+        padding:10px;
+    }
+
+    .Joana img, .Alice img, .Mercedes img {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .Joana a:link, .Alice a:link, .Mercedes a:link {
+        color: #084620;
+    }
+
+    .Joana a:hover, .Alice a:hover, .Mercedes a:hover {
+        background-color: #969292;
+        color: black;
+    }
+
+    .Joana a:visited, .Alice a:visited, .Mercedes a:visited {
+        color: #ffffff; 
+    }
+
+    .img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .img img {
+        width: 40%;
+    }
+
+    .tlibros {
+        border: 2px solid #000000;
+        width: 100%;
+        position:relative;
+        top: 20px;
+    }
+
+    .tlibros td {
+        border: 2px solid #000000;
+        width:33%;
+        padding:10px;
+    }
+
+    .tlibros th{
+        border: 2px solid #000000;
+        width:33%;
+        background-color: #47669e;
+        padding: 10px;
+    }
+
+    .libro {
+        width:100%;
+    }
+
+    .derecha, .izquierda {
+        position:relative;
+        top:20px;
+        margin-bottom: 20px;
+        width: 90%;
+        margin-left:5%;
+        margin-right:5%;
+    }
+
+    .derecha img {
+        height: 150px;
+        float: right;
+        margin-left:3%;
+    }
+
+    .derecha .texto,.izquierda .texto  {
+        height: 150px;
+        padding-left: 15px;
+        padding-right: 15px;
+        overflow: auto;
+        background-color: rgba(169, 144, 120, 0.7);
+    }
+
+    .izquierda img {
+        height: 150px;
+        float: left;
+        margin-right:3%;
+    }
+
+    .pelis {
+        border: 2px solid #000000;
+        width: 100%;
+        position:relative;
+        top: 20px;
+    }
+
+    .pelis td {
+        border: 2px solid #000000;
+        width:33%;
+        padding:20px;
+    }
+
+    .pelis th{
+        border: 2px solid #000000;
+        width:33%;
+        background-color: #47669e;
+        padding: 20px;
+    }
+
+    .video {
+        width:100%;
+        height:315px;
+    }
+
+    .c1 {
+        background-color: rgba(239, 224, 208, 0.3);
+        text-shadow: 2px 2px 1px #ae655b;
+        }
+
+    p {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 17px;
+        line-height: 1.5em;
+    }
+
+    h3, tr {
+        font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+
+    .size {
+        font-size:20px;
+    }
+
+    a {
+        font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px
+    }
+
+    span{
+        text-decoration: underline;
+    }
+   
